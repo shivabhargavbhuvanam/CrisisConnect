@@ -1,0 +1,19 @@
+{
+    "landingPage.title": "CrisisKonnect",
+    "landingPage.tagline": "Your helping hand in crisis",
+    "landingPage.description": "Donations are critical for our operations and help us provide services and support to our beneficiaries. Learn how your contributions make a difference and help us change lives.",
+    "landingPage.button.learnMore": "Learn More and Donate",
+    "landingPage.successMessage": "Successfully Donated ${amount} Dollars",
+    "landingPage.button.returnHome": "Return to Homepage",
+    "landingPage.services.title": "Services",
+    "landingPage.services.description": "What do we do?",
+    "landingPage.emergencyResponse.title": "Emergency Response",
+    "landingPage.emergencyResponse.description": "It ensures that individuals in distress can quickly connect to emergency services, receive real-time updates, and access vital support when every second counts. This feature is crucial in mitigating risks and coordinating prompt assistance, embodying our commitment to safety and rapid aid.",
+    "landingPage.safeHouse.title": "Safe House",
+    "landingPage.safeHouse.description": "The 'Safe House' feature of our application is a testament to our dedication to providing security and shelter. It acts as a digital compass, guiding vulnerable individuals to the nearest safe spaces during calamities or threats. By mapping out sanctuaries and providing essential information on accessibility, we strive to offer solace and protection to those in the throes of upheaval.",
+    "landingPage.rescueGuidelines.title": "Rescue Guidelines",
+    "landingPage.rescueGuidelines.description": "Knowledge can be as crucial as physical aid, which is why our app includes comprehensive 'Rescue Guidelines'. This feature is a repository of expertly curated advice and protocols for a range of emergency situations, empowering users to make informed decisions and take effective action during critical moments, thereby enhancing their resilience and self-reliance.",
+    "landingPage.loveForHumanity.title": "Love for Humanity",
+    "landingPage.loveForHumanity.description": "A platform where 'Love for Humanity' is more than a sentiment—it's action. It connects compassionate individuals with opportunities to support those in need, whether through donations, volunteering, or community assistance. This feature fosters a spirit of global kinship, encouraging users to lend a hand and help weave a tapestry of empathy and unity across communities."
+  }
+  

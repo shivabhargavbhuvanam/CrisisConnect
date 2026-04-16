@@ -1,0 +1,15 @@
+{
+    "paymentForm.title": "Why Donate to Our Cause?",
+    "paymentForm.description": "Donations are critical for our operations and help us provide services and support to our beneficiaries. Learn how your contributions make a difference and help us change lives.",
+    "paymentForm.button.learnMore": "Learn More and Donate",
+    "paymentForm.successMessage": "Successfully Donated ${amount} Dollars",
+    "paymentForm.button.returnHome": "Return to Homepage",
+    "paymentForm.label.donationAmount": "Donation Amount (USD)",
+    "paymentForm.label.cardHolderName": "Card Holder Name",
+    "paymentForm.button.pay": "Pay",
+    "paymentForm.loading": "Loading Maps",
+    "paymentForm.error.cardInfo": "Please enter your credit card information.",
+    "paymentForm.error.processing": "An error occurred while processing your payment.",
+    "paymentForm.error.saveDonation": "Failed to save donation"
+  }
+  

@@ -1,0 +1,23 @@
+{
+    "incidentForm.title.edit": "Editar Incidente",
+    "incidentForm.title.report": "Reportar Nuevo Incidente",
+    "incidentForm.error.reporting": "Error al reportar el incidente:",
+    "incidentForm.label.type": "Tipo",
+    "incidentForm.placeholder.selectType": "Seleccionar Tipo",
+    "incidentForm.label.details": "Detalles",
+    "incidentForm.label.severityLevel": "Nivel de Severidad",
+    "incidentForm.placeholder.selectSeverity": "Seleccionar Severidad",
+    "incidentForm.label.address": "Dirección",
+    "incidentForm.label.city": "Ciudad",
+    "incidentForm.label.state": "Estado",
+    "incidentForm.placeholder.selectState": "Seleccionar Estado",
+    "incidentForm.label.images": "Imágenes",
+    "incidentForm.label.newImages": "Nuevas Imágenes",
+    "incidentForm.label.existingImages": "Imágenes Existentes",
+    "incidentForm.button.delete": "Eliminar",
+    "incidentForm.label.message": "Mensaje",
+    "incidentForm.label.action": "Acción",
+    "incidentForm.placeholder.selectAction": "Seleccionar Acción",
+    "details.close": "Cerrar",
+    "incidentForm.button.submit": "Enviar"
+    }

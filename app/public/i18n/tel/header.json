@@ -1,0 +1,12 @@
+{
+    "navLink.home": "హోమ్",
+    "navLink.reportIncident": "సంఘటన నివేదించు",
+    "navLink.viewIncidents": "సంఘటనలను చూడండి",
+    "navLink.help": "సహాయం",
+    "navLink.guides": "మార్గదర్శకాలు",
+    "navLink.dashboard": "నిర్వాహక డాష్‌బోర్డ్",
+    "navLink.safeHouses": "సురక్షిత గృహాలు",
+    "navLink.createGuides": "మార్గదర్శకాలను సృష్టించు",
+    "button.signUp": "సైన్ అప్ చేయండి",
+    "button.signIn": "సైన్ ఇన్ చేయండి"
+}

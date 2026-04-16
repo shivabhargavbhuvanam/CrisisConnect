@@ -1,0 +1,13 @@
+{
+    "guideForm.selectGuideLabel": "మార్గదర్శకాన్ని ఎంచుకోండి (ఐచ్ఛికం)",
+    "guideForm.titleInputLabel": "శీర్షిక",
+    "guideForm.imageUrlInputLabel": "చిత్రం URL",
+    "guideForm.contentInputLabel": "విషయం",
+    "guideForm.updateGuideButton": "మార్గదర్శకాన్ని నవీకరించు",
+    "guideForm.createGuideButton": "మార్గదర్శకాన్ని సృష్టించు",
+    "guideForm.successUpdateMessage": "మార్గదర్శకం విజయవంతంగా నవీకరించబడింది!",
+    "guideForm.successCreateMessage": "మార్గదర్శకం విజయవంతంగా సృష్టించబడింది!",
+    "guideForm.errorUpdateMessage": "మార్గదర్శకాన్ని నవీకరించడంలో విఫలం",
+    "guideForm.errorCreateMessage": "మార్గదర్శకాన్ని సృష్టించడంలో విఫలం"
+  }
+  

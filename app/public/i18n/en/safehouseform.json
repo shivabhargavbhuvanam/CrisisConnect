@@ -1,0 +1,12 @@
+{
+    "safeHouseForm.loadingMaps": "Loading Maps",
+    "safeHouseForm.title": "Add a SafeHouse",
+    "safeHouseForm.labels.name": "Name:",
+    "safeHouseForm.labels.email": "Email:",
+    "safeHouseForm.labels.address": "Address:",
+    "safeHouseForm.buttons.verify": "Verify",
+    "safeHouseForm.buttons.submit": "Submit",
+    "safeHouseForm.error.geocodeFailure": "Geocode was not successful:",
+    "safeHouseForm.alert.addSuccess": "Safe House added successfully!",
+    "safeHouseForm.error.addFailure": "Error while adding a safehouse:"
+  }

@@ -1,0 +1,722 @@
+/* Home.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ecf0f1; 
+    font-family: 'Montserrat', sans-serif !important; 
+    
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-100px); /* Start the element 100px above its final position */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-20%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+.welcome-header {
+    animation: slideInLeft 1.5s ease-out both;
+}
+
+.home-box:hover {
+  transform: scale(1.05);
+  box-shadow: -7px -4px 20px 10px rgba(0, 0, 0, 0.1);
+} 
+
+.welcome-header h1 {
+    font-size: 4.5em; 
+    font-style: bold;
+    color: #08354f; 
+    margin-bottom: 0.3em; /* Spacing between the welcome message and tagline */
+    margin-top: 40px;
+    margin-left: 29px;
+}
+
+ p{
+  margin-left: 33px;
+} 
+.home-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr)); /* Increase min-width here */
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    padding: -20px; /* Add some padding to the container */
+    width: 90%;
+    max-width: 1200px; /* Maximum width of the container */
+    margin: auto;
+    margin-top: 100px;
+}
+
+.home-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white; 
+    border-radius: 8px;
+    padding: 40px;
+    position: relative;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none; /* Removes underline from links */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    padding: 20px;
+    color: black;
+}
+
+.home-box::before {
+    content: '';
+    display: block;
+    padding-top: 100%; /* This will make the height equal to the width */
+}
+.home-box-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.home-box img {
+    width: 65%; /* Adjust size as needed */
+    margin-bottom: 60px;
+}
+
+.home-box span {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*FAQ section*/
+
+
+.faq-container {
+    width: 100%;
+    max-width: 800px; 
+    margin: 127px auto; 
+    padding: 45px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1); 
+    border-radius: 8px;
+    background-color: #fff; 
+    margin-top: 54px;
+}
+
+.faq-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ccc; /* Separator for questions */
+    padding: 10px 15px;
+    margin-bottom: 10px; /* Space between items */
+}
+
+.faq-item summary {
+    font-weight: bold;
+    margin: -10px -15px;
+    padding: 10px 15px;
+    cursor: pointer;
+    list-style: none; /* Remove the default list marker */
+    outline: none; /* Remove focus outline */
+}
+
+.faq-item summary:hover,
+.faq-item summary:focus {
+    background-color: #f5f5f5; /* Slight change on hover and focus */
+}
+
+.faq-item summary::-webkit-details-marker {
+    display: none; /* Hide the default arrow icon in Chrome/Safari */
+}
+
+.faq-item p {
+    padding: 10px;
+    margin: 0;
+    color: #666; /* Dark grey color for text */
+    background: #f9f9f9; /* Light background for the answer */
+    border-left: 4px solid #3e50a8; /* Adds a left border to content for visibility */
+}
+
+/* Optional media query to handle responsiveness */
+@media (max-width: 768px) {
+    .faq-container {
+        padding: 10px;
+    }
+}
+
+
+
+
+/*form  page design*/
+
+/* Form Styles */
+form {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+    color: #333;
+  }
+  
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    /* background-color: #6e1919; */
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  }
+  
+  .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+  }
+
+  .graph-container {
+    background: #fff; /* Optional: for better visibility */
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Optional: adds shadow for depth */
+  }
+
+
+
+
+  /*sign-in page ui*/
+
+
+  /* Define keyframes for the background animation in your CSS file */
+@keyframes backgroundSlide {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+
+
+  /*servicestyles*/
+
+  .dashboard-header {
+    text-align: center;
+    color: #34d314;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*bot container*/
+
+.crisisConnectBot-container {
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 1000; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    border-radius: 10px; 
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 999;
+}
+
+
+/*hero page*/
+
+  /* .hero-section {
+    background-position: center;
+    text-align: left;
+    padding: 100px 20px;
+  } */
+  
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .hero-section h1 {
+    margin: 0;
+    color: #333;
+    font-size: 8.9rem;
+
+  }
+  
+  .hero-section p {
+    color: #666;
+    margin-left: 10px;
+  }
+  
+  .hero-section button {
+    background-color: #307277; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    /* margin-top: 20px; */
+  }
+  
+  /* For smooth scrolling effect */
+  html {
+    scroll-behavior: smooth;
+  }
+    
+  .text-container {
+    flex: 1;
+    padding: 2rem;
+  }
+  
+  .image-container {
+    flex: 1;
+    text-align: right; 
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text-container {
+    animation: slideInLeft 1.5s ease-out both;
+}
+
+.image-container {
+    animation: slideUp 1.8s ease-out forwards; 
+}   
+
+
+
+
+/*volunteer section*/
+
+/* Add a margin above the volunteer section for spacing */
+.volunteer-section {
+    margin-top: 120px; /* Adjust the value as needed */
+  }
+  
+  /* Style for the volunteer cards */
+  .volunteer-card {
+    /* Add styles for the initial state of the card */
+    border: 1px solid transparent; /* Adjust border as needed */
+    transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  }
+
+  .volunteer-section h2{
+    margin-bottom: -40px;
+    /* margin: 27px; */
+    color: #333;
+    font-size: 5rem;
+    
+  }
+  
+  /* Hover effect */
+  .volunteer-card:hover {
+    /* Add styles for hover state */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    border-color: #cccccc; /* Adjust color as needed */
+  }
+  
+
+  /* Show volunteer info on hover */
+  .volunteer-card:hover .volunteer-info {
+    display: block;
+  }
+  
+.volunteer-section {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .volunteers-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr)); /* Increase min-width here */
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: -20px; /* Add some padding to the container */
+    width: 100%;
+    max-width: 1200px; /* Maximum width of the container */
+    margin: auto;
+    margin-top: 177px;
+  }
+  
+  .volunteer-card {
+    position: relative;
+    width: 200px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .volunteer-card img {
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+  }
+  
+  .volunteer-info {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+    /* Style for the volunteer info which contains name, role, etc. */
+    .volunteer-info {
+        display: none; /* Hide info by default */
+        padding: -5px;
+        /* Other styling as needed */
+      }
+    
+  
+  .volunteer-card:hover .volunteer-info {
+    opacity: 1;
+  }
+  
+  .volunteer-role {
+    font-weight: bold;
+  }
+  
+  .volunteer-socials {
+    margin-top: 10px;
+  }
+  
+  .volunteer-socials a {
+    margin: 0 5px;
+    color: #555;
+    text-decoration: none;
+  }
+  
+  /* .fa {
+    font-size: 24px;
+  } */
+    
+
+
+  /*donation section*/
+
+   .donation-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.7rem;
+    background: white; /* Adjust the color to match your design */
+    margin-top: 58px;
+  }
+
+  .donation-content h2{
+    margin: 27px;
+    color: #333;
+    font-size: 8rem;
+  }
+  .donation-content p {
+    margin-left: 39px;
+  }
+  
+  .donation-content {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .donation-image-container {
+    max-width: 50%;
+    flex: 1;
+
+}
+  
+  .donate-button {
+    background-color: #307277; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 38px;
+    text-decoration: none;
+  }
+  
+  .donation-image-container img {
+    width: 100%;
+    height: auto;
+ 
+  }
+
+
+/*footer styles*/
+
+
+
+
+
+.footer {
+    background-color: #333;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 28px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: color 0.3s;
+    text-align: left;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #aaa;
+  }
+  
+  .footer-icons a {
+    cursor: pointer;
+  }
+  .footer-icons a:hover img {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .footer-icons img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+  }
+  .footer-icons img:hover {
+    transform: scale(1.1);
+  }
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    opacity: 0.6;
+  }
+
+  .website-footer {
+    text-align: center;
+    width: 100%;
+    padding: 0px 0;
+    font-size: 1rem;
+    color: #666;
+    margin-top: 40px;
+  }
+  
+ 
+
+.language-dropdown {
+  position: relative;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+}
+
+.language-icon {
+  background: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 4px;
+}
+
+.language-select {
+  position: absolute;
+  background: white;
+  /* border: 1px solid #ccc; */
+  margin-top: 5px;
+  width: 100%; /* Make the dropdown the same width as the button */
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  z-index: 1000; /* Ensures the dropdown is above other content */
+  list-style-type: none;
+  padding-left: 0; /* Remove default padding */
+  width: 100px;
+  padding-left: 10px;
+}
+
+.language-select li {
+  
+  cursor: pointer;
+  color: black;
+  text-align: left;
+}
+
+.language-select li:hover {
+  background-color: #f1f1f1; /* Light grey background on hover */
+}
+
+
+/*admin dashboard*/
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 5.5rem;
+  margin-bottom: 30px;
+  color: #333;
+  font-weight: 600;
+
+}
+
+.graph-container {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.graph-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+  
+  /* Adding some padding around the graphs for better spacing */
+  .graph-container > div {
+    padding: 15px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .graph-container {
+      margin-bottom: 15px;
+    }
+    
+    .dashboard-header {
+      font-size: 2.8rem;
+    }
+  }
+
+  .pdfButton{
+    /* background-color: #307277;  */
+    color: white;
+    border: none;
+    padding: 8px 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 1280px;
+  } 
+
+
+  .language-icon {
+    border: none !important;
+  }
+
+  .language-icon:hover {
+    background-color: white !important;
+  }
+  
+  /* If you have additional colors or themes for your graphs, define them here */
+  /* .graph-title {
+    color: #182f30;
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+   */
+
+
+  

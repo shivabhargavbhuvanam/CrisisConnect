@@ -1,0 +1,24 @@
+{
+    "incidentForm.title.edit": "Edit Incident",
+    "incidentForm.title.report": "Report New Incident",
+    "incidentForm.error.reporting": "Error while reporting incident:",
+    "incidentForm.label.type": "Type",
+    "incidentForm.placeholder.selectType": "Select Type",
+    "incidentForm.label.details": "Details",
+    "incidentForm.label.severityLevel": "Severity Level",
+    "incidentForm.placeholder.selectSeverity": "Select Severity",
+    "incidentForm.label.address": "Address",
+    "incidentForm.label.city": "City",
+    "incidentForm.label.state": "State",
+    "incidentForm.placeholder.selectState": "Select a State",
+    "incidentForm.label.images": "Images",
+    "incidentForm.label.newImages": "New Images",
+    "incidentForm.label.existingImages": "Existing Images",
+    "incidentForm.button.delete": "Delete",
+    "incidentForm.label.message": "Message",
+    "incidentForm.label.action": "Action",
+    "incidentForm.placeholder.selectAction": "Select Action",
+    "details.close": "Close",
+    "incidentForm.button.submit": "Submit"
+  }
+  

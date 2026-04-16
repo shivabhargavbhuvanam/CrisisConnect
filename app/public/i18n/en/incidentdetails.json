@@ -1,0 +1,22 @@
+{
+    "incidentDetails.title": "Incident Details",
+    "incidentDetails.carousel.defaultAltText": "Default Incident",
+    "incidentDetails.carousel.imageAltText": "Incident Image",
+    "incidentDetails.typeLabel": "Type:",
+    "incidentDetails.detailsLabel": "Details:",
+    "incidentDetails.addressLabel": "Address:",
+    "incidentDetails.cityLabel": "City:",
+    "incidentDetails.stateLabel": "State:",
+    "incidentDetails.noLocationData": "No location data available",
+    "incidentDetails.status.header": "Status:",
+    "incidentDetails.status.messageLabel": "Message:",
+    "incidentDetails.status.approveButton": "Approve",
+    "incidentDetails.status.rejectButton": "Reject",
+    "incidentDetails.status.ignoreButton": "Ignore",
+    "incidentDetails.status.inputPlaceholder": "Enter your message",
+    "incidentDetails.status.inputAriaLabel": "Administrator's message",
+    "incidentDetails.editButton": "Edit Incident",
+    "incidentDetails.noIncidentData": "No incident data found!",
+    "details.cancel": "Cancel",
+    "page.back": "Back"
+}

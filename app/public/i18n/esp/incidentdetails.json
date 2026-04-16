@@ -1,0 +1,29 @@
+{
+    "incidentDetails.title": "Detalles del Incidente",
+    "incidentDetails.carousel.defaultAltText": "Incidente Predeterminado",
+    "incidentDetails.carousel.imageAltText": "Imagen del Incidente",
+    "incidentDetails.typeLabel": "Tipo:",
+    "incidentDetails.detailsLabel": "Detalles:",
+    "incidentDetails.addressLabel": "Dirección:",
+    "incidentDetails.cityLabel": "Ciudad:",
+    "incidentDetails.stateLabel": "Estado:",
+    "incidentDetails.noLocationData": "No hay datos de ubicación disponibles",
+    "incidentDetails.status.header": "Estado:",
+    "incidentDetails.status.messageLabel": "Mensaje:",
+    "incidentDetails.status.approveButton": "Aprobar",
+    "incidentDetails.status.rejectButton": "Rechazar",
+    "incidentDetails.status.ignoreButton": "Ignorar",
+    "incidentDetails.status.inputPlaceholder": "Ingrese su mensaje",
+    "incidentDetails.status.inputAriaLabel": "Mensaje del Administrador",
+    "incidentDetails.editButton": "Editar Incidente",
+    "incidentDetails.noIncidentData": "¡No se encontraron datos del incidente!",
+    "details.cancel": "Cancelar",
+    "page.back": "Back"
+    }
+    
+    
+    
+    
+    
+    
+    

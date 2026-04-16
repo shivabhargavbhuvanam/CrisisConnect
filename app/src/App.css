@@ -1,0 +1,212 @@
+#root {
+  min-width: 1280px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end; 
+  margin-top: 20px; 
+}
+
+.modal-buttons .btn + .btn {
+  margin-left: 10px;
+}
+
+/* Incident Form */
+.landing-page-container {
+  width: 80%;
+  height: 80%;
+  margin: 40px auto; 
+}
+
+/*Location Modal */
+.location-modal-title {
+  color: #95AF59 !important;
+}
+
+
+/* comments */
+
+ .card-hover {
+  transition: transform 0.8s;
+} 
+
+ .card-hover:hover {
+  cursor: pointer;
+}
+
+.card-buttons {
+  display: none;  
+}
+
+.card-hover:hover .card-buttons {
+  display: block;  
+} 
+
+
+/* form designs */
+
+/* App.css - Update or create a new CSS file and import it into your component */
+
+body, html {
+  font-family: 'Montserrat', sans-serif; /* This should be consistent across your application */
+  background-color: #f4f4f9; /* A light grey background */
+  margin: 0;
+}
+
+.container {
+  padding-top: 20px; /* Adds space at the top of the form */
+}
+
+h1 {
+  color: #95af59 !important; 
+  font-size: 28px; /* Larger font for headings */
+  margin-bottom: 20px; /* More space below the heading */
+  
+}
+
+
+.form-label {
+  font-weight: 600; /* Makes labels bolder */
+  color: #333; /* Dark color for better readability */
+}
+
+.form-control {
+  border-radius: 5px; /* Rounded corners for input fields */
+  border: 1px solid #ccc; /* Light gray border for inputs */
+}
+
+.button {
+  background-color: #1a60bb !important; /* Bright blue for the primary button */
+  border: #90bdd1 !important;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #a7bed9; /* A slightly darker blue on hover */
+}
+
+.alert {
+  font-size: 16px; /* Larger font size for better visibility */
+  margin-top: 20px; /* Space above the alert */
+}
+
+.action-button {
+  font-weight: bold !important;
+  border-width: 2px !important;
+}
+
+.edit-incident-button {
+  border-width: 2px !important;
+  font-weight: 600 !important;
+  background-color: #0dcaf032 !important;
+  color: black !important;
+}
+
+.edit-incident-button:hover {
+  background-color: #0DCAF0 !important;
+  color: white !important;
+}
+
+.back-btn {
+  position: absolute !important;
+  top: 90px !important;
+  left: 90px !important;
+  z-index: 1000 !important;
+  color: black !important;
+  background-color: white !important; 
+  border: none !important;
+  font-size: 22px !important;
+  transition: transform 3s ease;
+}
+
+.back-btn:hover {
+  transform: scale(1.02);
+  font-weight: bold;
+}
+
+/* SafeHouseList */
+
+.loading-indicator {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.card-hover:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.add-safehouse-btn {
+  display: block;
+  width: 100%;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-safehouse-btn:hover {
+  background-color: #45a049;
+}
+
+.modal-buttons  {
+  width: 62%; /* Responsive button width */
+}
+
+.card-buttons .btn {
+  margin-top: 10px;
+}
+
+.overflow-auto {
+  overflow-y: auto;
+}

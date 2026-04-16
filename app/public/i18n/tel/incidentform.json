@@ -1,0 +1,24 @@
+{
+    "incidentForm.title.edit": "సంఘటనను సవరించు",
+    "incidentForm.title.report": "క్రొత్త సంఘటనను నివేదించు",
+    "incidentForm.error.reporting": "సంఘటనను నివేదిస్తుండగా లోపం:",
+    "incidentForm.label.type": "రకం",
+    "incidentForm.placeholder.selectType": "రకాన్ని ఎంచుకోండి",
+    "incidentForm.label.details": "వివరాలు",
+    "incidentForm.label.severityLevel": "తీవ్రత స్థాయి",
+    "incidentForm.placeholder.selectSeverity": "తీవ్రతను ఎంచుకోండి",
+    "incidentForm.label.address": "చిరునామా",
+    "incidentForm.label.city": "నగరం",
+    "incidentForm.label.state": "రాష్ట్రం",
+    "incidentForm.placeholder.selectState": "రాష్ట్రం ఎంచుకోండి",
+    "incidentForm.label.images": "చిత్రాలు",
+    "incidentForm.label.newImages": "కొత్త చిత్రాలు",
+    "incidentForm.label.existingImages": "ఉన్న చిత్రాలు",
+    "incidentForm.button.delete": "తొలగించు",
+    "incidentForm.label.message": "సందేశం",
+    "incidentForm.label.action": "చర్య",
+    "incidentForm.placeholder.selectAction": "చర్యను ఎంచుకోండి",
+    "details.close": "మూసివేయి",
+    "incidentForm.button.submit": "సమర్పించు"
+  }
+  

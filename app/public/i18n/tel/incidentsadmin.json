@@ -1,0 +1,9 @@
+{
+    "incidentsAdmin.error.fetchFail": "సంఘటనలను పొందడంలో విఫలం:",
+    "incidentsAdmin.noIncidents": "నివేదించబడిన సంఘటనలు లేవు!",
+    "incidentsAdmin.status.pending": "పెండింగ్ సంఘటనలు",
+    "incidentsAdmin.status.approved": "ఆమోదించబడిన సంఘటనలు",
+    "incidentsAdmin.status.rejected": "తిరస్కరించబడిన సంఘటనలు",
+    "incidentsAdmin.status.ignored": "పట్టించుకోని సంఘటనలు"
+  }
+  

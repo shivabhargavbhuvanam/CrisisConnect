@@ -1,0 +1,13 @@
+{
+    "safeHouseForm.loadingMaps": "మ్యాప్‌లు లోడ్ అవుతున్నాయి",
+    "safeHouseForm.title": "సురక్షిత గృహం జోడించు",
+    "safeHouseForm.labels.name": "పేరు:",
+    "safeHouseForm.labels.email": "ఇమెయిల్:",
+    "safeHouseForm.labels.address": "చిరునామా:",
+    "safeHouseForm.buttons.verify": "ధృవీకరించు",
+    "safeHouseForm.buttons.submit": "సమర్పించు",
+    "safeHouseForm.error.geocodeFailure": "జియోకోడ్ విజయవంతం కాలేదు:",
+    "safeHouseForm.alert.addSuccess": "సురక్షిత గృహం విజయవంతంగా జోడించబడింది!",
+    "safeHouseForm.error.addFailure": "సురక్షిత గృహాన్ని జోడిస్తుండగా లోపం:"
+  }
+  

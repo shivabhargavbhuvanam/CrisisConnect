@@ -1,0 +1,12 @@
+{
+    "safeHouseForm.loadingMaps": "Cargando Mapas",
+    "safeHouseForm.title": "Agregar una Casa Segura",
+    "safeHouseForm.labels.name": "Nombre:",
+    "safeHouseForm.labels.email": "Correo Electrónico:",
+    "safeHouseForm.labels.address": "Dirección:",
+    "safeHouseForm.buttons.verify": "Verificar",
+    "safeHouseForm.buttons.submit": "Enviar",
+    "safeHouseForm.error.geocodeFailure": "La geocodificación no fue exitosa:",
+    "safeHouseForm.alert.addSuccess": "¡Casa Segura agregada exitosamente!",
+    "safeHouseForm.error.addFailure": "Error al agregar una casa segura:"
+    }

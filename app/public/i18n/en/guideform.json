@@ -1,0 +1,13 @@
+{
+    "guideForm.selectGuideLabel": "Select Guide (Optional)",
+    "guideForm.titleInputLabel": "Title",
+    "guideForm.imageUrlInputLabel": "Image URL",
+    "guideForm.contentInputLabel": "Content",
+    "guideForm.updateGuideButton": "Update Guide",
+    "guideForm.createGuideButton": "Create Guide",
+    "guideForm.successUpdateMessage": "Guide updated successfully!",
+    "guideForm.successCreateMessage": "Guide created successfully!",
+    "guideForm.errorUpdateMessage": "Failed to update guide",
+    "guideForm.errorCreateMessage": "Failed to create guide"
+  }
+  

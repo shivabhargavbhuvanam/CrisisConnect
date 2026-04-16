@@ -1,0 +1,12 @@
+{
+    "navLink.home": "Home",
+    "navLink.reportIncident": "Report Incident",
+    "navLink.viewIncidents": "View Incidents",
+    "navLink.help": "Help",
+    "navLink.guides": "Guides",
+    "navLink.dashboard": "Admin Dashboard",
+    "navLink.safeHouses": "Safe Houses",
+    "navLink.createGuides": "Create Guides",
+    "button.signUp": "Sign up",
+    "button.signIn": "Sign in"
+}

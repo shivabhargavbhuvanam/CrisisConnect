@@ -1,0 +1,8 @@
+{
+    "incidentsAdmin.error.fetchFail": "Error al obtener incidentes:",
+    "incidentsAdmin.noIncidents": "¡No se han reportado incidentes!",
+    "incidentsAdmin.status.pending": "Incidentes Pendientes",
+    "incidentsAdmin.status.approved": "Incidentes Aprobados",
+    "incidentsAdmin.status.rejected": "Incidentes Rechazados",
+    "incidentsAdmin.status.ignored": "Incidentes Ignorados"
+    }

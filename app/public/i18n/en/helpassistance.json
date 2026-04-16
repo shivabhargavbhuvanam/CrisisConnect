@@ -1,0 +1,14 @@
+{
+    "places.title": "Places",
+    "places.loading": "Loading...",
+    "places.findNearby": "Find Nearby",
+    "places.hospitals": "Hospitals",
+    "places.policeStations": "Police Stations",
+    "places.safeHouses": "Need Safe Houses?",
+    "places.findSafeHouse": "Find SafeHouse",
+    "places.getDirections": "Get Directions",
+    "places.searchAddress": "Search an address",
+    "places.km": "km",
+    "error.fetchingDirections": "Error fetching directions",
+    "guidecards.learn": "Learn More"
+}

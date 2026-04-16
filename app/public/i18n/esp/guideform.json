@@ -1,0 +1,12 @@
+{
+    "guideForm.selectGuideLabel": "Seleccionar Guía (Opcional)",
+    "guideForm.titleInputLabel": "Título",
+    "guideForm.imageUrlInputLabel": "URL de la Imagen",
+    "guideForm.contentInputLabel": "Contenido",
+    "guideForm.updateGuideButton": "Actualizar Guía",
+    "guideForm.createGuideButton": "Crear Guía",
+    "guideForm.successUpdateMessage": "¡Guía actualizada exitosamente!",
+    "guideForm.successCreateMessage": "¡Guía creada exitosamente!",
+    "guideForm.errorUpdateMessage": "Error al actualizar la guía",
+    "guideForm.errorCreateMessage": "Error al crear la guía"
+    }

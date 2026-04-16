@@ -1,0 +1,10 @@
+{
+    "allsafehouses.title":"SafeHouses",
+    "allhouses.edit": "Edit",
+    "allhouses.delete": "Delete",
+    "allhouses.btn.addhouse": "Add SafeHouse",
+    "allhouses.modal.title": "Delete SafeHouse?",
+    "modal.yes": "Yes",
+    "modal.no": "No",
+    "modal.text": "Do you really want to delete the safehouse "
+}

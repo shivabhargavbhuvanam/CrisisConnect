@@ -1,0 +1,10 @@
+{
+    "loading": "Loading...",
+    "error": "Error: Failed to fetch safe houses",
+    "safehouses.title": "SafeHouses",
+    "nearest-safehouses.title": "Nearest Safe Houses",
+    "your-location": "Your Location",
+    "get-directions": "Get Directions",
+    "distance.unit": "Miles",
+    "page.back": "Back"
+  }

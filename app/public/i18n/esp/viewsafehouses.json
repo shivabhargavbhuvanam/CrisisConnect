@@ -1,0 +1,10 @@
+{
+    "loading": "Cargando...",
+    "error": "Error: Fallo al obtener las casas seguras",
+    "safehouses.title": "Casas Seguras",
+    "nearest-safehouses.title": "Casas Seguras Más Cercanas",
+    "your-location": "Tu Ubicación",
+    "get-directions": "Obtener Direcciones",
+    "distance.unit": "Millas",
+    "page.back": "Atrás"
+    }

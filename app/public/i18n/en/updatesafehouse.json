@@ -1,0 +1,13 @@
+{
+    "safeHouseEditForm.loading": "Loading...",
+    "safeHouseEditForm.loadingMaps": "Loading Maps",
+    "safeHouseEditForm.editSafeHouseTitle": "Edit SafeHouse",
+    "safeHouseEditForm.labels.name": "Name:",
+    "safeHouseEditForm.labels.email": "Email:",
+    "safeHouseEditForm.labels.address": "Address:",
+    "safeHouseEditForm.buttons.verify": "Verify",
+    "safeHouseEditForm.buttons.update": "Update",
+    "safeHouseEditForm.error.invalidOperation": "Invalid operation: Safe house ID is missing.",
+    "safeHouseEditForm.error.updateFailure": "Error while updating safehouse:",
+    "safeHouseEditForm.error.geocodeFailure": "Geocode was not successful:"
+  }

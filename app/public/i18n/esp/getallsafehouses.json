@@ -1,0 +1,10 @@
+{
+    "allsafehouses.title": "Casas Seguras",
+    "allhouses.edit": "Editar",
+    "allhouses.delete": "Eliminar",
+    "allhouses.btn.addhouse": "Agregar Casa Segura",
+    "allhouses.modal.title": "¿Eliminar Casa Segura?",
+    "modal.yes": "Sí",
+    "modal.no": "No",
+    "modal.text": "¿Realmente deseas eliminar la casa segura "
+    }

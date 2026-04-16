@@ -1,0 +1,15 @@
+{
+    "paymentForm.title": "మా కారణానికి ఎందుకు విరాళం ఇవ్వాలి?",
+    "paymentForm.description": "విరాళాలు మా కార్యకలాపాలకు కీలకమైనవి, మరియు అవి మా లబ్దిదారులకు సేవలు మరియు మద్దతు అందించడానికి సహాయపడతాయి. మీ విరాళాలు ఎలా తేడా తెస్తాయో మరియు జీవితాలను మార్చడంలో మాకు ఎలా సహాయపడతాయో తెలుసుకోండి.",
+    "paymentForm.button.learnMore": "మరింత నేర్చుకొని విరాళం ఇవ్వండి",
+    "paymentForm.successMessage": "${amount} డాలర్లు విజయవంతంగా విరాళం ఇచ్చారు",
+    "paymentForm.button.returnHome": "హోమ్‌పేజీకి తిరిగి వెళ్ళండి",
+    "paymentForm.label.donationAmount": "విరాళం మొత్తం (USD)",
+    "paymentForm.label.cardHolderName": "కార్డు యజమాని పేరు",
+    "paymentForm.button.pay": "చెల్లించు",
+    "paymentForm.loading": "మ్యాప్‌లు లోడ్ అవుతున్నాయి",
+    "paymentForm.error.cardInfo": "దయచేసి మీ క్రెడిట్ కార్డు సమాచారం నమోదు చేయండి.",
+    "paymentForm.error.processing": "మీ చెల్లింపును ప్రాసెస్ చేస్తుండగా లోపం జరిగింది.",
+    "paymentForm.error.saveDonation": "విరాళం సేవ్ చేయడంలో విఫలం"
+  }
+  

@@ -1,0 +1,14 @@
+{
+    "places.title": "స్థలాలు",
+    "places.loading": "లోడ్ అవుతుంది...",
+    "places.findNearby": "సమీపంలో కనుగొనండి",
+    "places.hospitals": "ఆస్పత్రులు",
+    "places.policeStations": "పోలీస్ స్టేషన్లు",
+    "places.safeHouses": "సురక్షిత గృహాలు అవసరమా?",
+    "places.findSafeHouse": "సురక్షిత గృహం కనుగొనండి",
+    "places.getDirections": "దిశలు పొందండి",
+    "places.searchAddress": "చిరునామాను శోధించండి",
+    "places.km": "కి.మీ.",
+    "error.fetchingDirections": "దిశలను పొందడంలో లోపం",
+    "guidecards.learn": "మరింత తెలుసుకోండి"
+}

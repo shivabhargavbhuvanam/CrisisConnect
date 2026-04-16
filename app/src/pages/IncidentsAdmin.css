@@ -1,0 +1,49 @@
+:root {
+    --pending-bg-color: #FFA726; /* amber */
+    --approved-bg-color: #66BB6A; /* green */
+    --rejected-bg-color: #EF5350; /* red */
+    --ignored-bg-color: #BDBDBD; /* grey */
+    --status-icon-size: 24px;
+}
+
+.status-section {
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.pending {
+    border-left: 4px solid #FFA726;
+}
+
+.pending-state {
+    color: #FFA726;
+}
+
+.approved {
+    border-left: 4px solid #66BB6A;
+}
+
+.approved-state {
+    color: #66BB6A;
+}
+
+.rejected {
+    border-left: 4px solid #EF5350;
+}
+
+.rejected-state {
+    color: #EF5350;
+}
+
+.ignored {
+    border-left: 4px solid #BDBDBD;
+}
+
+.ignored-state {
+    color: #BDBDBD;
+}
+
+.status-icon {
+    margin-left: 10px;
+    font-size: 24px;
+}

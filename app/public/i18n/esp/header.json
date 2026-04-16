@@ -1,0 +1,12 @@
+{
+    "navLink.home": "Inicio",
+    "navLink.reportIncident": "Reportar Incidente",
+    "navLink.viewIncidents": "Ver Incidentes",
+    "navLink.help": "Ayuda",
+    "navLink.guides": "Guías",
+    "navLink.dashboard": "Tablero de Administración",
+    "navLink.safeHouses": "Casas Seguras",
+    "navLink.createGuides": "Crear Guías",
+    "button.signUp": "Registrarse",
+    "button.signIn": "Iniciar sesión"
+    }

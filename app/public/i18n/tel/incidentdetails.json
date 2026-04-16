@@ -1,0 +1,22 @@
+{
+    "incidentDetails.title": "సంఘటన వివరాలు",
+    "incidentDetails.carousel.defaultAltText": "డిఫాల్ట్ సంఘటన",
+    "incidentDetails.carousel.imageAltText": "సంఘటన చిత్రం",
+    "incidentDetails.typeLabel": "రకం:",
+    "incidentDetails.detailsLabel": "వివరాలు:",
+    "incidentDetails.addressLabel": "చిరునామా:",
+    "incidentDetails.cityLabel": "నగరం:",
+    "incidentDetails.stateLabel": "రాష్ట్రం:",
+    "incidentDetails.noLocationData": "స్థాన డేటా అందుబాటులో లేదు",
+    "incidentDetails.status.header": "స్థితి:",
+    "incidentDetails.status.messageLabel": "సందేశం:",
+    "incidentDetails.status.approveButton": "ఆమోదించు",
+    "incidentDetails.status.rejectButton": "తిరస్కరించు",
+    "incidentDetails.status.ignoreButton": "పట్టించుకోకు",
+    "incidentDetails.status.inputPlaceholder": "మీ సందేశాన్ని నమోదు చేయండి",
+    "incidentDetails.status.inputAriaLabel": "నిర్వాహకుని సందేశం",
+    "incidentDetails.editButton": "సంఘటనను సవరించు",
+    "incidentDetails.noIncidentData": "సంఘటన డేటా కనుగొనబడలేదు!",
+    "details.cancel": "రద్దు చేయి",
+    "page.back": "వెనక్కి"
+}

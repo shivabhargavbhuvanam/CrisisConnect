@@ -1,0 +1,94 @@
+/* Incident Cards Component */
+
+.card-custom {
+    background-color: #ecececea !important; /* Adjust the alpha for transparency */
+    border: none !important;
+    /* background: linear-gradient(160deg, #7d7e7e94 0%, #a4a8a817 100%) !important; */
+    border: none !important;
+    border-radius: 20px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    overflow: hidden !important;
+    color: rgba(47, 47, 47, 0.901) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100% !important;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    margin: 10px 0px;
+    position: relative !important;
+}
+
+.severity-tag {
+    display: block;
+    padding: 0.25em 0.5em;
+    font-size: 0.75em;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 10;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+.severity-low {
+    background-color: rgba(0, 128, 0, 0.563);
+}
+
+.severity-medium {
+    background-color: rgba(255, 166, 0, 0.607);
+}
+
+.severity-high {
+    background-color: rgba(255, 0, 0, 0.596);
+}
+
+.card-custom:hover {
+    transform: translateY(-8px); /* Slight lift effect */
+    box-shadow: 9px 12px 10px 4px rgba(79, 75, 96, 0.149) !important; /* More prominent shadow to suggest elevation */
+    background-color: #4d4d4d47 !important;
+}
+
+.carousel-custom .carousel-item {
+    height: 200px !important;
+    object-fit: cover !important;
+}
+
+.carousel-image {
+    height: 200px !important;
+    object-fit: cover !important;
+    border-radius: 20px !important;
+}
+
+.card-body-custom {
+    flex-grow: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: 'space-between' !important;
+    cursor: pointer;
+}
+
+.details-text {
+    overflow: hidden !important;
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-line-clamp: 2 !important; /* Limit to two lines */
+    margin-bottom: auto !important; /* Push everything else down */
+}
+
+.card-title-custom {
+    font-size: 1.25rem !important;
+    font-weight: bold !important;
+    margin-bottom: 1rem !important
+}
+
+.details-button {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 14px !important;
+    font-weight: bold !important;
+}

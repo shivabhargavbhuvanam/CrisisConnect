@@ -1,0 +1,13 @@
+{
+    "safeHouseEditForm.loading": "Cargando...",
+    "safeHouseEditForm.loadingMaps": "Cargando Mapas",
+    "safeHouseEditForm.editSafeHouseTitle": "Editar Casa Segura",
+    "safeHouseEditForm.labels.name": "Nombre:",
+    "safeHouseEditForm.labels.email": "Correo Electrónico:",
+    "safeHouseEditForm.labels.address": "Dirección:",
+    "safeHouseEditForm.buttons.verify": "Verificar",
+    "safeHouseEditForm.buttons.update": "Actualizar",
+    "safeHouseEditForm.error.invalidOperation": "Operación inválida: Falta el ID de la casa segura.",
+    "safeHouseEditForm.error.updateFailure": "Error al actualizar la casa segura:",
+    "safeHouseEditForm.error.geocodeFailure": "La geocodificación no fue exitosa:"
+    }

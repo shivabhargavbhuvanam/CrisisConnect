@@ -1,0 +1,14 @@
+{
+    "places.title": "Lugares",
+    "places.loading": "Cargando...",
+    "places.findNearby": "Buscar Cerca",
+    "places.hospitals": "Hospitales",
+    "places.policeStations": "Estaciones de Policía",
+    "places.safeHouses": "¿Necesitas Casas Seguras?",
+    "places.findSafeHouse": "Buscar Casa Segura",
+    "places.getDirections": "Obtener Direcciones",
+    "places.searchAddress": "Buscar una dirección",
+    "places.km": "km",
+    "error.fetchingDirections": "Error al obtener direcciones",
+    "guidecards.learn": "Aprender Más"
+    }

@@ -1,0 +1,18 @@
+{
+    "landingPage.title": "CrisisKonnect",
+    "landingPage.tagline": "Tu mano amiga en crisis",
+    "landingPage.description": "Las donaciones son críticas para nuestras operaciones y nos ayudan a proporcionar servicios y apoyo a nuestros beneficiarios. Descubre cómo tus contribuciones marcan la diferencia y nos ayudan a cambiar vidas.",
+    "landingPage.button.learnMore": "Saber más y Donar",
+    "landingPage.successMessage": "Donación de ${amount} Dólares realizada con éxito",
+    "landingPage.button.returnHome": "Volver a la Página de Inicio",
+    "landingPage.services.title": "Servicios",
+    "landingPage.services.description": "¿Qué hacemos?",
+    "landingPage.emergencyResponse.title": "Respuesta de Emergencia",
+    "landingPage.emergencyResponse.description": "Asegura que las personas en situación de angustia puedan conectarse rápidamente con los servicios de emergencia, recibir actualizaciones en tiempo real y acceder a apoyo vital cuando cada segundo cuenta. Esta función es crucial para mitigar riesgos y coordinar asistencia rápida, encarnando nuestro compromiso con la seguridad y la ayuda rápida.",
+    "landingPage.safeHouse.title": "Casa Segura",
+    "landingPage.safeHouse.description": "La función 'Casa Segura' de nuestra aplicación es un testimonio de nuestra dedicación a proporcionar seguridad y refugio. Actúa como una brújula digital, guiando a individuos vulnerables hacia los espacios seguros más cercanos durante calamidades o amenazas. Al mapear santuarios y proporcionar información esencial sobre accesibilidad, nos esforzamos por ofrecer consuelo y protección a aquellos en medio de la agitación.",
+    "landingPage.rescueGuidelines.title": "Directrices de Rescate",
+    "landingPage.rescueGuidelines.description": "El conocimiento puede ser tan crucial como la ayuda física, por eso nuestra aplicación incluye completas 'Directrices de Rescate'. Esta función es un repositorio de consejos y protocolos expertamente seleccionados para una variedad de situaciones de emergencia, empoderando a los usuarios para tomar decisiones informadas y tomar medidas efectivas durante momentos críticos, mejorando así su resiliencia y autosuficiencia.",
+    "landingPage.loveForHumanity.title": "Amor por la Humanidad",
+    "landingPage.loveForHumanity.description": "Una plataforma donde el 'Amor por la Humanidad' es más que un sentimiento, es acción. Conecta a individuos compasivos con oportunidades para apoyar a quienes lo necesitan, ya sea a través de donaciones, voluntariado o asistencia comunitaria. Esta función fomenta un espíritu de hermandad global, alentando a los usuarios a tender una mano y ayudar a tejer una red de empatía y unidad en las comunidades."
+}

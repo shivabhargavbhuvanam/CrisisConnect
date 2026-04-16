@@ -1,0 +1,13 @@
+{
+    "safeHouseEditForm.loading": "లోడ్ అవుతుంది...",
+    "safeHouseEditForm.loadingMaps": "మ్యాప్‌లు లోడ్ అవుతున్నాయి",
+    "safeHouseEditForm.editSafeHouseTitle": "సురక్షిత గృహాన్ని సవరించు",
+    "safeHouseEditForm.labels.name": "పేరు:",
+    "safeHouseEditForm.labels.email": "ఇమెయిల్:",
+    "safeHouseEditForm.labels.address": "చిరునామా:",
+    "safeHouseEditForm.buttons.verify": "ధృవీకరించు",
+    "safeHouseEditForm.buttons.update": "నవీకరించు",
+    "safeHouseEditForm.error.invalidOperation": "చెల్లని చర్య: సురక్షిత గృహ ID లేదు.",
+    "safeHouseEditForm.error.updateFailure": "సురక్షిత గృహాన్ని నవీకరిస్తుండగా లోపం:",
+    "safeHouseEditForm.error.geocodeFailure": "జియోకోడ్ విజయవంతం కాలేదు:"
+  }

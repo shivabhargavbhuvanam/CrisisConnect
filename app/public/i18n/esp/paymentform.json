@@ -1,0 +1,14 @@
+{
+    "paymentForm.title": "¿Por qué Donar a Nuestra Causa?",
+    "paymentForm.description": "Las donaciones son críticas para nuestras operaciones y nos ayudan a proporcionar servicios y apoyo a nuestros beneficiarios. Descubre cómo tus contribuciones marcan la diferencia y nos ayudan a cambiar vidas.",
+    "paymentForm.button.learnMore": "Saber más y Donar",
+    "paymentForm.successMessage": "Donación de ${amount} Dólares realizada con éxito",
+    "paymentForm.button.returnHome": "Volver a la Página de Inicio",
+    "paymentForm.label.donationAmount": "Cantidad de Donación (USD)",
+    "paymentForm.label.cardHolderName": "Nombre del Titular de la Tarjeta",
+    "paymentForm.button.pay": "Pagar",
+    "paymentForm.loading": "Cargando Mapas",
+    "paymentForm.error.cardInfo": "Por favor, ingresa la información de tu tarjeta de crédito.",
+    "paymentForm.error.processing": "Se produjo un error al procesar tu pago.",
+    "paymentForm.error.saveDonation": "Error al guardar la donación"
+    }
